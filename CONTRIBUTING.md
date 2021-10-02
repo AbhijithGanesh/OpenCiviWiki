@@ -56,6 +56,14 @@ To create the (initial) database structure, run migrations as follows:
 python manage.py migrate
 ```
 
+### Run fixtures
+To add the previously created data related to CiviWiki please run the following commands:
+```py
+python manage.py loaddata data/categories.json
+python manage.py loaddata data/sample_threads.json
+```
+
+
 ### Collect static files
 Certain resources, such as CSS and JavaScript files, need to be served from a static directory. Run the following command to collect static files for Django to serve:
 
@@ -77,6 +85,7 @@ Once you have installed the dependencies, run the server as follows:
 ```py
 python manage.py runserver
 ```
+
 
 ### Register initial user (optional)
 Once CiviWiki is running, visit the front page (probably something like http://localhost:8000). Once there, click 'log in/register', and then 'register new user'.
