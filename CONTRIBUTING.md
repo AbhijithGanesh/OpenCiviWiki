@@ -58,6 +58,8 @@ python manage.py migrate
 
 ### Run fixtures
 To add the previously created data related to CiviWiki please run the following commands:
+   - Fixtures are collections of data which will be directly loaded into the database .
+   - You can read the [Docs](https://docs.djangoproject.com/en/3.2/howto/initial-data/)
 ```py
 python manage.py loaddata data/categories.json
 python manage.py loaddata data/sample_threads.json
