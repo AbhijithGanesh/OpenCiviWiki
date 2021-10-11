@@ -18,8 +18,12 @@
         "fundingFinding",
         "ideas",
         "projectManagement",
+<<<<<<< HEAD
         "review",
         "doc"
+=======
+        "review"
+>>>>>>> master
       ]
     },
     {
@@ -306,6 +310,7 @@
         "ideas",
         "bug"
       ]
+<<<<<<< HEAD
     },
     {
       "login": "SunflowerPKU",
@@ -740,4 +745,13 @@
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true
+=======
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "OpenCiviWiki",
+  "projectOwner": "CiviWiki",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+>>>>>>> master
 }
